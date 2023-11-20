@@ -1,0 +1,31 @@
+
+1. Justify-Content:
+
+Ans:
+the justify-content property is used within a flex container to align its items along
+ the main axis. This property doesn't have an effect if the container has only one line
+  of items or if it's a grid container.
+
+  2. align-item:
+
+  Ans:
+  property in CSS is used within a flex container to define how its items are aligned 
+  along the cross-axis, perpendicular to the main axis. This property applies to flex
+   containers in a single line.
+
+ 3. Gap:
+
+ Ans:
+ The gap property in CSS is used to create space between grid or flex container elements. It's a shorthand property for setting the gap between rows and columns in a grid layout or between flex items in a flex container.
+
+   4. Flex-direction:
+
+   Ans:
+   The flex-direction property in CSS is used within flex containers to define the direction in which flex items are placed within the container. It determines the main axis and the direction in which the flex items flow.
+
+   5. Flex-wrap:
+
+   Ans:
+   The flex-wrap property in CSS is used within flex containers to define whether the flex items should wrap onto multiple lines or stay in a single line within the container, adjusting to the available space.
+
+    

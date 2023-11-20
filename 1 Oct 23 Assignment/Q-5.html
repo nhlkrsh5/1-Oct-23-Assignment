@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hachi+Maru+Pop&family=Oswald:wght@200&family=Poppins:ital,wght@0,500;1,200&display=swap');
+
+        header{
+            margin-left: 35px;
+        }
+
+        .navbar {
+            display: flex;
+            width: 700px;
+            /* background-color: aqua; */
+
+        }
+
+        .logos {
+            width: 600px;
+            margin: 5px;
+
+        }
+
+        .links {
+            padding: 10px;
+
+        }
+
+        .links a {
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+        button {
+            margin: 10px;
+            background-color: white;
+            border: 1px solid gray;
+            padding: 5px;
+            cursor: pointer;
+
+        }
+
+        .image {
+            display: inline;
+            position: absolute;
+            margin: 25px;
+            top: -10px;
+        }
+
+        .text {
+            margin: 33px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        p {
+            display: inline;
+            font-size: 20px;
+        }
+
+        .btn button {
+            padding: 5px;
+            font-family: 'Poppins', sans-serif;
+            border: 1px solid gray;
+        }
+
+        .btn :nth-child(1) {
+            background-color: rgb(83, 83, 147);
+            color: white;
+        }
+
+        .destination {
+            border: 1px solid gray;
+            height: 50px;
+            width: 550px;
+            position: relative;
+            border-radius: 5px;
+            padding: 25px;
+            display: flex;
+            margin: 25px;
+            color: gray;
+        }
+
+        .icon {
+            display: flex;
+        }
+
+        .ban {
+            /* display: flex; */
+            position: relative;
+            left: 20px;
+            top: -30px;
+            padding: 10px;
+        }
+
+        .ban h1 {
+            position: relative;
+            top: -25px;
+        }
+
+        /* p{
+            display: block;
+        } */
+        .destination i {
+            font-size: 30px;
+            position: relative;
+            top: 10px;
+            left: 25px;
+        }
+
+        .ksr {
+            position: relative;
+            top: -45px;
+            font-size: 15px;
+        }
+
+        .rot {
+            width: 110px;
+            display: flex;
+            justify-content: center;
+        }
+
+       
+        .date {}
+
+        .date .ban {
+            width: 500px;
+        }
+
+        .date .rot {
+            width: 120px;
+        }
+        .last button{
+            width: 600px;
+            padding: 10px;
+            background-color: green;
+            color: white;
+            font-size: 20px;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logos">
+                <img src="IRCTC.png" alt="image1" height="50px" width="85px">
+                <img src="r-logo.png" alt="image2" height="50px" width="50px">
+            </div>
+
+            <div class="links">
+                <a href="#">Ask Disha</a>
+                <a href="#">Contect Us</a>
+                <a href="#">Aleart</a>
+                <button style="background-color: orange;">Login</button>
+                <button>Register</button>
+                <button>Agent Login</button>
+                <div class="image">
+                    <img src="img1.jpg" alt="image" width="600px" height="630px">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="text">
+            <h1>Indian Railway</h1>
+            <p style="color: green;">Safety</p>
+            <p style="color: red;">Security</p>
+            <p style="color: blue;">Punctuality</p>
+        </div>
+
+        <div class="btn">
+            <button><i class="fa-solid fa-ticket"></i>Book Ticket</button>
+            <button><i class="fa-solid fa-check"></i>PNR Status</button>
+            <button><i class="fa-solid fa-chart-simple"></i>Charts/Vacancy</button>
+        </div>
+
+        <div class="destination">
+            <div class="icon">
+                <i class="fa-solid fa-train-subway"></i>
+            </div>
+            <div class="ban">
+                <p>From</p>
+                <h1>Bangalore</h1>
+                <p class="ksr">KSR Bangalore</p>
+
+            </div>
+
+            <div class="rot">
+                <i class="fa-solid fa-arrows-rotate"></i>
+            </div>
+
+            <div class="icon">
+                <i class="fa-solid fa-train-subway"></i>
+            </div>
+            <div class="ban">
+                <p>To</p>
+                <h1>Kasaragod</h1>
+                <p class="ksr">KSR Kasaragod</p>
+
+            </div>
+        </div>
+
+        <div class="destination date">
+            <div class="icon">
+                <i class="fa-solid fa-calendar-days"></i>
+            </div>
+            <div class="ban">
+                <p>Date</p>
+                <h1>1 Aug 2023</h1>
+                <p class="ksr">Tuesdau</p>
+
+            </div>
+
+            <div class="rot">
+                <i class="fa-regular fa-circle"></i>
+                <div class="ban">
+                    <p>Class</p>
+                    <h1>3A</h1>
+                    <p class="ksr">AC 3 tier</p>
+
+                </div>
+            </div>
+
+
+            <div class="icon">
+                <i class="fa-solid fa-grip"></i>
+            </div>
+            <div class="ban">
+                <p>Seat Type</p>
+                <h1>TATKAL</h1>
+                <p class="ksr">AC 3 tier</p>
+
+            </div>
+        </div>
+    </main>
+
+    <section class="last">
+        
+            <button>Search Train<i class="fa-solid fa-arrow-right"></i></button>
+       
+    </section>
+
+
+</body>
+
+</html>
